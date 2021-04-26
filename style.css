@@ -1,0 +1,43 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+	background-image: url(ф.jpg);
+	background-size: cover;
+    height: auto;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.countdown {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.time-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: rgb(54, 54, 54);
+	font-family: sans-serif;
+	padding: 0 30px;
+	border-right: 1px solid #fff;
+	user-select: none;
+}
+
+.time-section:last-child {
+	border: none;
+}
+
+.count {
+	font-size: 50px;
+}
+
+.units {
+	font-size: 15px;
+}
