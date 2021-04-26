@@ -23,7 +23,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	color: rgb(54, 54, 54);
+	color: black;
 	font-family: sans-serif;
 	padding: 0 30px;
 	border-right: 1px solid #fff;
